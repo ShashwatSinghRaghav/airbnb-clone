@@ -1,6 +1,7 @@
-import { Search } from '@material-ui/icons'
+import { Search ,Language, ExpandMore, AccountCircle} from '@material-ui/icons'
 import React from 'react'
 import './Header.css'
+
 function Header() {
     return (
         <div className='header'>
@@ -8,6 +9,13 @@ function Header() {
             <div className="header__center">
                 <input type="text"/>
                 <Search/>
+            </div>
+
+            <div className='header__right'>
+                <p>Become a host</p>
+                <Language/>
+                <ExpandMore/>
+                <AccountCircle style={{fill: "grey"}}/>
             </div>
 
         </div>
