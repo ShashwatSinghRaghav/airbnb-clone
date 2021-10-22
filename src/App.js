@@ -1,10 +1,25 @@
 import './App.css';
+import Header from './Header';
+import Home from './Home';
+
 
 function App() {
   return (
+
     //bem
     <div className="aoo">
-      <h1>AirBnb Clone</h1>
+      <Header/>
+      <Home/>
+      {/* home */}
+
+      {/* headder */}
+
+      {/* banner */}
+
+      {/* cards */}
+
+      {/* footer */}
+       
     </div>
   );
 }
